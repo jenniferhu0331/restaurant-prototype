@@ -5,25 +5,25 @@ import { useMemo, useState } from "react"
 const restaurants = [
   {
     id: 1,
-    name: "Green Bowl 健康餐盒",
+    name: "JJ's POKE & CAFE 2号店",
     distanceMin: 6,
     isOpen: true,
-    rating: 4.6,
+    rating: 4.1,
     category: "健康餐",
     tags: ["高蛋白", "低負擔", "台大附近"],
     reason: "符合健康餐需求，距離近，現在也有營業",
-    address: "台北市大安區新生南路三段附近",
+    address: "臺北市大安區辛亥路二段附近",
     hours: "11:00 - 20:30",
     description: "主打健康餐盒與高蛋白搭配，適合下課後快速吃一餐。",
     menu: [
       {
-        name: "雞胸肉餐盒",
+        name: "雞肉沙拉飯",
         health: 9,
         popularity: 8,
         description: "高蛋白、較低油脂，是店內很穩定的熱門選擇。",
       },
       {
-        name: "炸雞飯",
+        name: "美乃滋沙拉飯",
         health: 4,
         popularity: 9,
         description: "口味受歡迎，但油脂與熱量相對較高。",
@@ -38,7 +38,7 @@ const restaurants = [
   },
   {
     id: 2,
-    name: "公館小路咖啡",
+    name: "RUFOUS COFFEE ROASTERS",
     distanceMin: 8,
     isOpen: true,
     rating: 4.4,
@@ -71,7 +71,7 @@ const restaurants = [
   },
   {
     id: 3,
-    name: "台大小館",
+    name: "二八麵堂",
     distanceMin: 4,
     isOpen: false,
     rating: 4.2,
@@ -104,7 +104,7 @@ const restaurants = [
   },
   {
     id: 4,
-    name: "Fresh Corner 沙拉吧",
+    name: "Doki Poke 夏威夷蒸鮮飯 台大社科店",
     distanceMin: 10,
     isOpen: true,
     rating: 4.5,
@@ -137,7 +137,7 @@ const restaurants = [
   },
   {
     id: 5,
-    name: "夜貓子食堂",
+    name: "阿薄郎薄皮餃子－公館店",
     distanceMin: 12,
     isOpen: true,
     rating: 4.1,
